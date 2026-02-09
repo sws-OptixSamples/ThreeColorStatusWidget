@@ -1,0 +1,21 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: ColorPicker
+  Id: g=d863ece5ee83765050480f9a8ba0fdcb
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=5;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
